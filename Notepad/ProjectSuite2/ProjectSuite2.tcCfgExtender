@@ -24,14 +24,10 @@
 				<Node name="{02542b04-194a-4903-b727-27ddea5f3f24}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{7CED635D-1F7C-4083-9FB0-A2D07537B086}"/>
+				<Prp name="activity" type="S" value="{4BDAB94F-8686-45E1-A2A8-22DC01DFD68F}"/>
 				<Prp name="default project" type="S" value="{309B2503-AC3D-4674-801C-D2E05DAA03EE}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{d3bb0715-1b93-4f3b-b151-c578a316eb52}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
-			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace"/>
 			</Node>
@@ -51,14 +47,38 @@
 			</Node>
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
-					<Node name="{659839c2-c49b-4948-a805-003db923d8dd}">
+					<Node name="{43ac5929-ef1a-47e0-afc6-c02f3463983f}">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000005C00000078016361606060046226208601189B0528C00C1304D2C8E22061762006E985014E2003990F0007A80029"/>
+						</Node>
+					</Node>
+					<Node name="{4d529bd2-facf-42bf-af1a-54c36c8380e0}">
 						<Node name="expanding"/>
+					</Node>
+					<Node name="{659839c2-c49b-4948-a805-003db923d8dd}">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000004400000078016361606060046226208601189B05280092830136200399CF019500000414001E"/>
+						</Node>
+					</Node>
+					<Node name="{ab81468f-1154-4abb-8f59-42f0c8ac4b87}">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E000000010000001C00000078016364606060046226208601181B0000880007"/>
+						</Node>
+					</Node>
+					<Node name="{af7e6666-2a94-4a00-86d9-d2457cc97082}">
+						<Node name="expanding">
+							<Prp name="expandlist" type="H" value="617162696E0000000100000004000000780163606060000000040001"/>
+						</Node>
 					</Node>
 				</Node>
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
-					<Node name="{4bdab94f-8686-45e1-a2a8-22dc01dfd68f}"/>
+					<Node name="{4bdab94f-8686-45e1-a2a8-22dc01dfd68f}">
+						<Prp name="bottom" type="I" value="35"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
 				</Node>
 			</Node>
 		</Node>
