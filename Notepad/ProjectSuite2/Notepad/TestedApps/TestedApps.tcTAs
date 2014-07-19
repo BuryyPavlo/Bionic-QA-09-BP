@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="Cmd.EXE"/>
+					<Prp name="filepath" type="S" value="C:\WINDOWS\system32\"/>
+					<Prp name="node name" type="S" value="Cmd"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{BFFD0FBF-E6FD-4696-AE7C-30179CCE7631}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="notepad.EXE"/>
+					<Prp name="filepath" type="S" value="C:\WINDOWS\system32\"/>
+					<Prp name="node name" type="S" value="notepad"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{B577B1BE-6F0C-4CC9-8574-473F4697F75B}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="2"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="TestedApps"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{9ED5300B-8832-4F34-9E6C-59E880D75172}"/>
+		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="typename" type="S" value="Tested Applications"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

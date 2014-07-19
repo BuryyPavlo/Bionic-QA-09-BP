@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="{ad15e706-6678-496b-b1e9-d449218ec403}">
+			<Node name="unassigned">
+				<Prp name="capture_count" type="I" value="0"/>
+				<Prp name="column" type="I" value="0"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="line" type="I" value="0"/>
+				<Prp name="owner" type="S" value="{00000000-0000-0000-0000-000000000000}"/>
+			</Node>
+		</Node>
+		<Node name="analysis">
+			<Prp name="key" type="S" value="{297ECC90-01A2-40B7-B313-2A57CA5B50AD}"/>
+		</Node>
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Notepad\Notepad.mds"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{309B2503-AC3D-4674-801C-D2E05DAA03EE}"/>
+				<Prp name="type" type="S" value="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}"/>
+				<Prp name="typename" type="S" value="Project"/>
+			</Node>
+		</Node>
+		<Node name="files">
+			<Node name="notepad\notepad.mds"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="scc"/>
+		<Node name="settings">
+			<Node name="{5a85e200-b5d2-4f74-972a-0221f2956a19}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value="Log"/>
+			</Node>
+			<Prp name="key" type="S" value="{0FF76AFC-E554-4790-99F4-47F6662EC80E}"/>
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="test data">
+			<Node name="child list">
+				<Node name="item0000000000">
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="index" type="I" value="0"/>
+					<Prp name="key" type="S" value="{309B2503-AC3D-4674-801C-D2E05DAA03EE}"/>
+					<Prp name="stoponerror" type="B" value="0"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="key" type="S" value="{FA13BFE5-8051-4256-9230-A83D5888536D}"/>
+		</Node>
+		<Node name="variables">
+			<Prp name="key" type="S" value="{EEB690AC-125C-4887-9863-FE65B7407ECC}"/>
+		</Node>
+		<Prp name="key" type="S" value="{DBC165EB-F554-438C-A80C-E99E5EF436FB}"/>
+		<Prp name="signature" type="S" value="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
