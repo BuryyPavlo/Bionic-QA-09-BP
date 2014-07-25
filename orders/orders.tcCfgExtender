@@ -36,39 +36,44 @@
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
-							<Prp name="editor" type="S" value="{6B3DC33E-146C-4D22-A717-040E13C9D41C}"/>
+							<Prp name="editor" type="S" value="{130C2BC7-7C62-49F0-9DFD-9CC4D724DEC2}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{951E9F91-8712-4B3C-96C9-F5F5C425357D}"/>
+					</Node>
+					<Node name="1">
+						<Node name="editor">
+							<Prp name="editor" type="S" value="{DBE57D6B-1341-4014-8332-B2D0020D0AE9}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{57D289ED-A7B2-489B-AD5B-261A91A65C59}"/>
+					</Node>
+					<Node name="2">
+						<Node name="editor">
+							<Prp name="editor" type="S" value="{819A48FD-A9AF-4C4D-93A5-BDBF50A202BC}"/>
 						</Node>
 						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
 					</Node>
-					<Node name="1">
+					<Node name="3">
 						<Node name="editor">
 							<Node name="0"/>
 							<Prp name="editor" type="S" value="{6CD66689-897C-41DF-84E7-649CE78F8EF7}"/>
 						</Node>
 						<Prp name="edititem" type="S" value="{253F6332-7A10-475F-A884-32FCC265ABC8}"/>
 					</Node>
-					<Node name="2">
+					<Node name="4">
 						<Node name="editor">
 							<Node name="0">
-								<Prp name="col" type="I" value="18"/>
-								<Prp name="line" type="I" value="1"/>
+								<Prp name="col" type="I" value="0"/>
+								<Prp name="line" type="I" value="80"/>
 								<Prp name="sellength" type="I" value="0"/>
-								<Prp name="selstart" type="I" value="18"/>
+								<Prp name="selstart" type="I" value="2170"/>
 								<Prp name="windowchar" type="I" value="0"/>
-								<Prp name="windowline" type="I" value="0"/>
+								<Prp name="windowline" type="I" value="73"/>
 							</Node>
 							<Prp name="editor" type="S" value="{9A0A180E-81B3-43A5-A312-D865C2451AF4}"/>
 						</Node>
 						<Prp name="edititem" type="S" value="{9AE9C29D-BF05-4967-AA93-513E1BD208B7}"/>
 					</Node>
-					<Node name="3">
-						<Node name="editor">
-							<Node name="0"/>
-							<Prp name="editor" type="S" value="{442B3FDA-6983-410B-91B0-C1E81D22055E}"/>
-						</Node>
-						<Prp name="edititem" type="S" value="{0B476BFF-965B-489E-8CF2-59685878B7F4}"/>
-					</Node>
-					<Prp name="docking" type="H" value="617162696E00000001000000B80300007801730C74F177F6E664800231205DC6C2C0F0831126828FCE6786C8DEF17EF6DEBDF5A3F3E2CEEB574ADFC872329A012540729F3ED9DD3FFFAEC56FA7F395162E9B8ADA0740B17C200E636560086402325001D062FCE03F141C023AEF0450293A1FAF6E90E9F3A12AEC0EDB66E78828F92E1767E1133E7945E60150BC1D88311CC605140C2E492C2A5108484C4F6560A0AD13819631CC021140C027C1356B73E352E7C54237520FB94A7D790014C3EA4460583284E6659618D2C3753B809681C02D7B6D97E64C6EC7891B0EBE9055628D7B0014C3EA3A65A04470725166418942486A7189824F7EBA4234D8B931BE899979B10AE6FA467A7A7AF470FB6CA05340A033ED5A4E4DE77DC796E729739EF7F77D7F0014C3EA7636A0447E514A6A51313D9C87991F80D6E3020047EAB232"/>
+					<Prp name="docking" type="H" value="617162696E000000010000003E0400007801730C74F177F6E664800231205DC6C2C0F0831126828FFECA0C91BDE3FDECBD7BEB47E7C59DD7AF94BE91E564DC039400C97DFA6477FFFCBB16BF9DCE575AB86C2A6A1F00C5F281388C9581219009C84005408BF183FF507008E8BC1340A5E87CBCBA817632CC87AAF8EB31AB71FD4A5F9FC94BF7EE0F58C4B4E70150BC1D88311CC605140C2E492C2A5108484C4F6560A0AD13819631CC021140C027C1356B73E352E7C54237520FB94A7D790014C3EA4490BF42F3324B0CE9E1BAD940CB40A033ED5A4E4DE77DC796E729739EF7F77D7F0014C3EA3A36A0447E514A6A51313D9C070BBCE3DA3CC249351F3CE7FE9D73E4BACABD43389D070A3CB7CC9C54BAB86E01D03210C8AE7D7ADB5158C4A1D968D305265EAE970F806258038F1B28E197989BEA9B58509099974E8F10242AE3039D050600C597D044"/>
 					<Prp name="enabled" type="B" value="0"/>
 				</Node>
 			</Node>
@@ -82,7 +87,7 @@
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
 					<Node name="{9ae9c29d-bf05-4967-aa93-513e1bd208b7}">
-						<Prp name="bottom" type="I" value="103"/>
+						<Prp name="bottom" type="I" value="111"/>
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
