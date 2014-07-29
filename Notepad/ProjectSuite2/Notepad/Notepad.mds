@@ -1490,7 +1490,7 @@
 					<Prp name="group" type="B" value="0"/>
 					<Prp name="index" type="I" value="0"/>
 					<Prp name="key" type="S" value="{F6D85EF5-7138-4118-A556-34605C770A87}"/>
-					<Prp name="name" type="S" value="ProjectTestItem1"/>
+					<Prp name="name" type="S" value="add"/>
 					<Prp name="stoponerror" type="I" value="0"/>
 					<Prp name="stoponexception" type="I" value="0"/>
 					<Prp name="test moniker" type="S" value="{4BDAB94F-8686-45E1-A2A8-22DC01DFD68F}Test_add_text"/>
@@ -1505,10 +1505,25 @@
 					<Prp name="group" type="B" value="0"/>
 					<Prp name="index" type="I" value="1"/>
 					<Prp name="key" type="S" value="{5B3A1412-E793-475A-AB04-AF20C2E1B562}"/>
-					<Prp name="name" type="S" value="ProjectTestItem2"/>
+					<Prp name="name" type="S" value="chanches"/>
 					<Prp name="stoponerror" type="I" value="0"/>
 					<Prp name="stoponexception" type="I" value="0"/>
 					<Prp name="test moniker" type="S" value="{4BDAB94F-8686-45E1-A2A8-22DC01DFD68F}test_changes_text"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000002">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="2"/>
+					<Prp name="key" type="S" value="{59536FBC-9144-40BC-95C9-3385FD956A5E}"/>
+					<Prp name="name" type="S" value="del"/>
+					<Prp name="stoponerror" type="I" value="0"/>
+					<Prp name="stoponexception" type="I" value="0"/>
+					<Prp name="test moniker" type="S" value="{4BDAB94F-8686-45E1-A2A8-22DC01DFD68F}Del"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
 			</Node>
